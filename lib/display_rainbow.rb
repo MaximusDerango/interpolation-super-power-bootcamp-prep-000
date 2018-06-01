@@ -6,7 +6,7 @@
 # end
 
 def display_rainbow(colors)
-  colors.each_with_index do |x|
-    print "#{x[0].upcase}: #{x}, "
+  colors.each_with_index do |x, i|
+    print "#{x[0].upcase}: #{x}#{"" if }"
   end
 end
