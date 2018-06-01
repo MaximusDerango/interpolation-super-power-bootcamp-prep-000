@@ -2,6 +2,7 @@
 def display_rainbow(colors)
   
   colors.length.times do |i|
-    print "#{colors[i][0].upcase}: #{x}#{i != colors.length-1 ? ", " : "\n"}"
+    color = colors[i]
+    print "#{color[0].upcase}: #{color}#{i != colors.length-1 ? ", " : "\n"}"
   end
 end
