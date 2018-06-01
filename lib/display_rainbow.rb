@@ -5,4 +5,5 @@ def display_rainbow(colors)
   end
   formatted = colors.collect{|c| "#{c[0].upcase}: #{c}"}.join(", ")
   puts formatted
+  formatted
 end
