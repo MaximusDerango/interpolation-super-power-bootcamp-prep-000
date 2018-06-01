@@ -4,3 +4,9 @@
 #   puts formatted
 #   formatted
 # end
+
+def display_rainbow(colors)
+  colors.each do |x|
+  print "#{x[0].upcase}: #{x}, "
+  end
+end
